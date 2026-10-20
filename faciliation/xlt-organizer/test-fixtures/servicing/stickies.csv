@@ -1,0 +1,6 @@
+id,type,color,text,team,pdlc_moment,rank,bucket,links,tier_guess,axis_common,axis_context,completeness,hub_status,needs_outcome
+servicing-001,need,yellow,Synthesizing research findings into insights is slow,servicing,design.discover,1,,servicing-002,xd_wide,5,4,E-L,,false
+servicing-002,outcome,green,Faster decisions from research,servicing,,,,,,,,--L,,false
+servicing-003,need,yellow,Writing design briefs from PRDs takes hours,servicing,design.define,2,,,unsure,,,-G-,,true
+servicing-004,shared_ask,purple,Design system context available to every designer's AI,servicing,,,,servicing-003,xd_wide,5,5,--L,unknown,false
+servicing-005,tool,gray,Prompt library in the XD AI Hub,servicing,,,instructions,,,,,---,exists_not_adopted,false

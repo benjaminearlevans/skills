@@ -1,0 +1,229 @@
+{
+  "team": {
+    "id": "premium",
+    "name": "Premium",
+    "product_area": "Card and travel app",
+    "size": "~40 designers",
+    "ai_setup": "Team harness in Claude Code with our own skills",
+    "ai_position": "leading"
+  },
+  "items": [
+    {
+      "id": "premium-001",
+      "type": "need",
+      "text": "Turning research readouts into ranked insights takes too long",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": "design.discover",
+      "rank": 1,
+      "links": [
+        "premium-002"
+      ],
+      "example": "Q3 travel study took 4 days to synthesize",
+      "frequency": "every study",
+      "cost": "3-4 days",
+      "completeness": {
+        "example": true,
+        "grounded": true,
+        "linked": true
+      },
+      "bucket": null,
+      "lead_term": null,
+      "built_or_adopted": null,
+      "hub_status": null,
+      "tier_guess": "xd_standards_local",
+      "axis_common": 4,
+      "axis_context": 3,
+      "source": "interview",
+      "agent_drafted": false
+    },
+    {
+      "id": "premium-002",
+      "type": "outcome",
+      "text": "Decisions in days, not weeks",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": null,
+      "rank": null,
+      "links": [],
+      "example": null,
+      "frequency": null,
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": false,
+        "linked": true
+      },
+      "bucket": null,
+      "lead_term": null,
+      "built_or_adopted": null,
+      "hub_status": null,
+      "tier_guess": null,
+      "axis_common": null,
+      "axis_context": null,
+      "source": "interview",
+      "agent_drafted": true
+    },
+    {
+      "id": "premium-003",
+      "type": "need",
+      "text": "Missing states found late, after engineering handoff",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": "manage.build",
+      "rank": 2,
+      "links": [
+        "premium-004"
+      ],
+      "example": null,
+      "frequency": "most sprints",
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": true,
+        "linked": true
+      },
+      "bucket": null,
+      "lead_term": null,
+      "built_or_adopted": null,
+      "hub_status": null,
+      "tier_guess": "xd_wide",
+      "axis_common": 5,
+      "axis_context": 4,
+      "source": "interview",
+      "agent_drafted": false
+    },
+    {
+      "id": "premium-004",
+      "type": "outcome",
+      "text": "Fewer missing states reaching engineering",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": null,
+      "rank": null,
+      "links": [],
+      "example": null,
+      "frequency": null,
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": false,
+        "linked": true
+      },
+      "bucket": null,
+      "lead_term": null,
+      "built_or_adopted": null,
+      "hub_status": null,
+      "tier_guess": null,
+      "axis_common": null,
+      "axis_context": null,
+      "source": "interview",
+      "agent_drafted": false
+    },
+    {
+      "id": "premium-005",
+      "type": "tool",
+      "text": "Synthesis skill that ranks research insights",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": null,
+      "rank": null,
+      "links": [
+        "premium-001"
+      ],
+      "example": null,
+      "frequency": null,
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": false,
+        "linked": true
+      },
+      "bucket": "instructions",
+      "lead_term": "insight ranker",
+      "built_or_adopted": "built",
+      "hub_status": "not_in_hub",
+      "tier_guess": "xd_standards_local",
+      "axis_common": 4,
+      "axis_context": 2,
+      "source": "interview",
+      "agent_drafted": false
+    },
+    {
+      "id": "premium-006",
+      "type": "tool",
+      "text": "Team Claude Code harness with design system context",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": null,
+      "rank": null,
+      "links": [
+        "premium-003"
+      ],
+      "example": null,
+      "frequency": null,
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": false,
+        "linked": true
+      },
+      "bucket": "environment",
+      "lead_term": "premium harness",
+      "built_or_adopted": "built",
+      "hub_status": "not_in_hub",
+      "tier_guess": "local_only",
+      "axis_common": 2,
+      "axis_context": 3,
+      "source": "interview",
+      "agent_drafted": false
+    },
+    {
+      "id": "premium-007",
+      "type": "barrier",
+      "text": "Research repository not accessible from Claude Code",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": null,
+      "rank": null,
+      "links": [
+        "premium-001"
+      ],
+      "example": null,
+      "frequency": null,
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": false,
+        "linked": true
+      },
+      "bucket": null,
+      "lead_term": null,
+      "built_or_adopted": null,
+      "hub_status": null,
+      "tier_guess": null,
+      "axis_common": null,
+      "axis_context": null,
+      "source": "interview",
+      "agent_drafted": false
+    }
+  ],
+  "terms": [
+    {
+      "term": "harness",
+      "meaning": "our Claude Code setup with skills and context",
+      "bucket": "environment"
+    }
+  ],
+  "open_items": [
+    "Who maintains shared skills long term?"
+  ],
+  "session": {
+    "started": "2026-10-21T09:00:00-07:00",
+    "updated": "2026-10-21T09:22:00-07:00",
+    "phase": "done",
+    "scan_consent": false,
+    "confirmed": true
+  },
+  "schema_version": "1.0"
+}

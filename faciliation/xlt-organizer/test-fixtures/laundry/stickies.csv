@@ -1,0 +1,9 @@
+id,type,color,text,team,pdlc_moment,rank,bucket,links,tier_guess,axis_common,axis_context,completeness,hub_status,needs_outcome
+growth-001,need,yellow,Research synthesis takes too long,growth,design.discover,1,,,,,,---,,true
+growth-002,need,yellow,Briefs rewritten for every partner,growth,design.define,2,,,,,,---,,true
+growth-003,need,yellow,Accessibility issues caught in QA,growth,manage.test,3,,,,,,---,,true
+growth-004,need,yellow,Copy reviews block launches,growth,manage.deploy,4,,,,,,---,,true
+growth-005,need,yellow,Experiment readouts are hard to act on,growth,improve.investigate,5,,,,,,---,,true
+growth-006,need,yellow,Too many meetings,growth,cross_cutting,,,,,,,---,,true
+growth-007,need,yellow,Figma files get messy,growth,manage.build,,,,,,,---,,true
+growth-008,need,yellow,Onboarding new designers is slow,growth,cross_cutting,,,,,,,---,,true

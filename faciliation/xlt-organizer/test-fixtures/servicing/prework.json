@@ -1,0 +1,161 @@
+{
+  "team": {
+    "id": "servicing",
+    "name": "Servicing",
+    "product_area": "Account servicing",
+    "size": "~25 designers",
+    "ai_setup": "Individuals use Claude Code ad hoc",
+    "ai_position": "early"
+  },
+  "items": [
+    {
+      "id": "servicing-001",
+      "type": "need",
+      "text": "Synthesizing research findings into insights is slow",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": "design.discover",
+      "rank": 1,
+      "links": [
+        "servicing-002"
+      ],
+      "example": "Last diary study",
+      "frequency": null,
+      "cost": null,
+      "completeness": {
+        "example": true,
+        "grounded": false,
+        "linked": true
+      },
+      "bucket": null,
+      "lead_term": null,
+      "built_or_adopted": null,
+      "hub_status": null,
+      "tier_guess": "xd_wide",
+      "axis_common": 5,
+      "axis_context": 4,
+      "source": "interview",
+      "agent_drafted": false
+    },
+    {
+      "id": "servicing-002",
+      "type": "outcome",
+      "text": "Faster decisions from research",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": null,
+      "rank": null,
+      "links": [],
+      "example": null,
+      "frequency": null,
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": false,
+        "linked": true
+      },
+      "bucket": null,
+      "lead_term": null,
+      "built_or_adopted": null,
+      "hub_status": null,
+      "tier_guess": null,
+      "axis_common": null,
+      "axis_context": null,
+      "source": "interview",
+      "agent_drafted": false
+    },
+    {
+      "id": "servicing-003",
+      "type": "need",
+      "text": "Writing design briefs from PRDs takes hours",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": "design.define",
+      "rank": 2,
+      "links": [],
+      "example": null,
+      "frequency": "weekly",
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": true,
+        "linked": false
+      },
+      "bucket": null,
+      "lead_term": null,
+      "built_or_adopted": null,
+      "hub_status": null,
+      "tier_guess": "unsure",
+      "axis_common": null,
+      "axis_context": null,
+      "source": "interview",
+      "agent_drafted": false
+    },
+    {
+      "id": "servicing-004",
+      "type": "shared_ask",
+      "text": "Design system context available to every designer's AI",
+      "detail": null,
+      "lead_words": null,
+      "pdlc_moment": null,
+      "rank": null,
+      "links": [
+        "servicing-003"
+      ],
+      "example": null,
+      "frequency": null,
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": false,
+        "linked": true
+      },
+      "bucket": null,
+      "lead_term": null,
+      "built_or_adopted": null,
+      "hub_status": "unknown",
+      "tier_guess": "xd_wide",
+      "axis_common": 5,
+      "axis_context": 5,
+      "source": "interview",
+      "agent_drafted": false
+    },
+    {
+      "id": "servicing-005",
+      "type": "tool",
+      "text": "Prompt library in the XD AI Hub",
+      "detail": "Hard to find; prompts feel generic",
+      "lead_words": null,
+      "pdlc_moment": null,
+      "rank": null,
+      "links": [],
+      "example": null,
+      "frequency": null,
+      "cost": null,
+      "completeness": {
+        "example": false,
+        "grounded": false,
+        "linked": false
+      },
+      "bucket": "instructions",
+      "lead_term": "hub prompts",
+      "built_or_adopted": "adopted",
+      "hub_status": "exists_not_adopted",
+      "tier_guess": null,
+      "axis_common": null,
+      "axis_context": null,
+      "source": "interview",
+      "agent_drafted": false
+    }
+  ],
+  "terms": [],
+  "open_items": [],
+  "session": {
+    "started": "2026-10-21T09:00:00-07:00",
+    "updated": "2026-10-21T09:22:00-07:00",
+    "phase": "done",
+    "scan_consent": false,
+    "confirmed": true
+  },
+  "schema_version": "1.0"
+}

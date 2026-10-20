@@ -1,0 +1,8 @@
+id,type,color,text,team,pdlc_moment,rank,bucket,links,tier_guess,axis_common,axis_context,completeness,hub_status,needs_outcome
+premium-001,need,yellow,Turning research readouts into ranked insights takes too long,premium,design.discover,1,,premium-002,xd_standards_local,4,3,EGL,,false
+premium-002,outcome,green,"Decisions in days, not weeks",premium,,,,,,,,--L,,false
+premium-003,need,yellow,"Missing states found late, after engineering handoff",premium,manage.build,2,,premium-004,xd_wide,5,4,-GL,,false
+premium-004,outcome,green,Fewer missing states reaching engineering,premium,,,,,,,,--L,,false
+premium-005,tool,blue,Synthesis skill that ranks research insights,premium,,,instructions,premium-001,xd_standards_local,4,2,--L,not_in_hub,false
+premium-006,tool,blue,Team Claude Code harness with design system context,premium,,,environment,premium-003,local_only,2,3,--L,not_in_hub,false
+premium-007,barrier,pink,Research repository not accessible from Claude Code,premium,,,,premium-001,,,,--L,,false
