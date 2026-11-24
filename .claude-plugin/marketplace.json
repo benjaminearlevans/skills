@@ -1,0 +1,42 @@
+{
+  "name": "benjaminearlevans-skills",
+  "owner": {
+    "name": "Benjamin Evans"
+  },
+  "metadata": {
+    "description": "The strategy workflow (ask-strategy, ask-story, ask-pm) and the skill packs it calls.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./core",
+      "description": "Start here. The three orchestrators and the five skills they call directly."
+    },
+    {
+      "name": "strategyu-skills",
+      "source": "./strategy/strategyu-skills-claude",
+      "description": "StrategyU's five consulting skills. Called by ask-strategy and ask-story."
+    },
+    {
+      "name": "awesome-pm-skills",
+      "source": "./product-management/awesome-pm-skills",
+      "description": "25 product management workflows by Udi Menkes. Called by ask-strategy and ask-story."
+    },
+    {
+      "name": "product-skills",
+      "source": "./product-management/product-skills",
+      "description": "Amplitude's product skills. ask-strategy calls its strategy tests and pre-mortem."
+    },
+    {
+      "name": "execution-skills",
+      "source": "./product-management/execution-skills",
+      "description": "Amplitude's execution skills. Called for meeting synthesis and yes-and."
+    },
+    {
+      "name": "lenny-skills",
+      "source": "./product-management/lenny-skills",
+      "description": "76 skills from Lenny's Podcast and Newsletter. ask-pm routes to them."
+    }
+  ]
+}

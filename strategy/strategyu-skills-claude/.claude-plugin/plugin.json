@@ -1,0 +1,10 @@
+{
+  "name": "strategyu-skills",
+  "version": "2.0.0",
+  "description": "StrategyU's five strategy consulting skills, packaged unchanged for personal use: su-frame, su-structure, su-storyline, su-writing and su-coach.",
+  "author": {
+    "name": "StrategyU (Paul Millerd)"
+  },
+  "homepage": "https://strategyu.co/strategy-consulting-aiskills/",
+  "keywords": ["strategy", "pyramid principle", "MECE", "SCQA", "storyline"]
+}

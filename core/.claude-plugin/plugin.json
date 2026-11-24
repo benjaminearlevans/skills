@@ -1,0 +1,9 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "The strategy workflow: three orchestrators (ask-strategy, ask-story, ask-pm) and the five skills they call directly (affinity-mapper, brief-from-pile, minto-pyramid, prior-art, file-and-name).",
+  "author": {
+    "name": "Benjamin Evans"
+  },
+  "keywords": ["strategy", "storytelling", "orchestrator", "executive brief", "through line"]
+}
